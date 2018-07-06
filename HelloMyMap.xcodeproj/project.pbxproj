@@ -12,6 +12,9 @@
 		2518D88620C7940200D3FE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2518D88420C7940200D3FE01 /* Main.storyboard */; };
 		2518D88820C7940300D3FE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2518D88720C7940300D3FE01 /* Assets.xcassets */; };
 		2518D88B20C7940300D3FE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2518D88920C7940300D3FE01 /* LaunchScreen.storyboard */; };
+		25FC924720C8E30C0058F961 /* pointRed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25FC924420C8E30C0058F961 /* pointRed@3x.png */; };
+		25FC924820C8E30C0058F961 /* pointRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 25FC924520C8E30C0058F961 /* pointRed.png */; };
+		25FC924920C8E30C0058F961 /* pointRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25FC924620C8E30C0058F961 /* pointRed@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		2518D88720C7940300D3FE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2518D88A20C7940300D3FE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2518D88C20C7940300D3FE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FC924420C8E30C0058F961 /* pointRed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pointRed@3x.png"; sourceTree = "<group>"; };
+		25FC924520C8E30C0058F961 /* pointRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointRed.png; sourceTree = "<group>"; };
+		25FC924620C8E30C0058F961 /* pointRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pointRed@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		2518D87F20C7940200D3FE01 /* HelloMyMap */ = {
 			isa = PBXGroup;
 			children = (
+				25FC924520C8E30C0058F961 /* pointRed.png */,
+				25FC924620C8E30C0058F961 /* pointRed@2x.png */,
+				25FC924420C8E30C0058F961 /* pointRed@3x.png */,
 				2518D88020C7940200D3FE01 /* AppDelegate.swift */,
 				2518D88220C7940200D3FE01 /* ViewController.swift */,
 				2518D88420C7940200D3FE01 /* Main.storyboard */,
@@ -96,6 +105,11 @@
 				TargetAttributes = {
 					2518D87C20C7940200D3FE01 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,7 +138,10 @@
 			files = (
 				2518D88B20C7940300D3FE01 /* LaunchScreen.storyboard in Resources */,
 				2518D88820C7940300D3FE01 /* Assets.xcassets in Resources */,
+				25FC924720C8E30C0058F961 /* pointRed@3x.png in Resources */,
+				25FC924820C8E30C0058F961 /* pointRed.png in Resources */,
 				2518D88620C7940200D3FE01 /* Main.storyboard in Resources */,
+				25FC924920C8E30C0058F961 /* pointRed@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
